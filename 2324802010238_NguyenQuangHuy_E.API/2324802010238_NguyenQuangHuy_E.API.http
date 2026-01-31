@@ -1,0 +1,6 @@
+@_2324802010238_NguyenQuangHuy_E.API_HostAddress = http://localhost:5031
+
+GET {{_2324802010238_NguyenQuangHuy_E.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
