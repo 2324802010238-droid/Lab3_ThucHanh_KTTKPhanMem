@@ -21,7 +21,7 @@ namespace ECommerce.Domain.Entities
         public string? Description { get; private set; }
         public int StockQuantity { get; private set; }
         // Navigation property for OrderItems referencing this product (optional)
-        //public ICollection<OrderItem> OrderItems { get; private set; } = new List<OrderItem>();
+        public ICollection<OrderItem> OrderItems { get; private set; } = new List<OrderItem>();
         private Product() { }  // EF Core needs parameterless constructor
         public Product(string name, decimal price, int stockQuantity, string? description)
         {
